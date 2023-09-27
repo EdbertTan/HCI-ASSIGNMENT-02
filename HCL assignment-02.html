@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HCL assignment=02</title>
+  </head>
+  <style>
+	body{
+	background-image: url('hotel2.jpg');
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;	}
+</style>
+	<body>
+	<p>
+	<h1 style="text-align: center";>Hotel Room Admission</h1>
+
+		<table style="border:1px solid black;">
+			<tr>
+				<td style="border:1px solid black;">
+					<table>
+						<tr>
+							<td style="vertical-align:TOP;">
+								<form action="/action_page.php">
+								<fieldset>
+								<legend>Guest:</legend>
+								<label for="fname">First Name:</label>
+								<input type="text" id="fname" name="fname"><br><br>
+								<label for="lname">Last Name:</label>
+								<input type="text" id="lname" name="lname"><br><br>
+								<label for="email">Email:</label>
+								<input type="email" id="email" name="email"><br><br>
+								<label for="arrival date">Arrival Date:</label>
+								<input type="date" id="arrival" name="arrival"><br><br>
+								
+								<br>Room Type<br>
+								<input type="radio" id="room1" name="room" value="twin" checked="true">
+								<label for="room1">Superior Twin</label><br>
+								<input type="radio" id="room2" name="room" value="triple">
+								<label for="room2">Superior Triple</label><br>
+					
+								<input type="checkbox" id="breakfast" name="breakfast" value="food">
+								<label for="breakfast">Add Breakfast</label><br>
+								
+								<br>Check Out Time<br>
+								<input type="radio" id="checkout1" name="checkout" value="1 PM" checked="true">
+								<label for="checkout1">1 PM</label><br>
+								<input type="radio" id="checkout2" name="checkout" value="3 PM">
+								<label for="checkout2">3 PM</label><br>
+								
+								</fieldset>
+								</form>
+							</td>
+							<td>	
+								<table>
+									<tr>
+										<td  colspan="2">
+											<img style="width:600px;" src="double bed.jpg"/>
+										</td>
+									</tr>
+									<tr>
+										<td><b>Superior Twin</b></td>
+										<td rowspan="3"><h3>Price Rp.5.000.000</h3></td>
+									</tr>
+									<tr>
+										<td>2 Adults</td>
+									<tr>
+										<td>1 Twin Bed</td>
+									</tr>
+									<tr>
+										<td  colspan="2">
+											<img style="width:600px;" src="triple bed.jpg"/>
+										</td>
+									</tr>
+									<tr>
+										<td><b>Superior Triple</b></td>
+										<td rowspan="3"><h3>Price Rp.7.500.000</h3></td>
+									</tr>
+									<tr>
+										<td>3 Adults</td>
+									<tr>
+										<td>1 Single Bed and 1 Twin Bed</td>
+									</tr>
+								</table>
+							</td>
+						</tr>	
+					</table>
+				</td>
+			</tr>
+		</table>
+	</p>
+	</body>
+	</html>
